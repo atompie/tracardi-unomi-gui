@@ -1,0 +1,6 @@
+.ConfiguredActionCard {
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ccc;
+}

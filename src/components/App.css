@@ -1,0 +1,41 @@
+.FlexColumns {
+  display: flex;
+  flex-direction: column;
+}
+.FlexRows {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+}
+
+.Box10 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.MoveUpOpacity {
+  animation-name: moveUpAndOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: .3s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveUpAndOpacity {
+  0% {
+    opacity: .3;
+    transform: translateY(5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

@@ -1,0 +1,29 @@
+.ActionFormTemplate {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 19px -1px rgba(176,176,176,1);
+    -moz-box-shadow: 0px 0px 19px -1px rgba(176,176,176,1);
+    box-shadow: 0px 0px 19px -1px rgba(176,176,176,1);
+}
+
+.ActionFormTemplate > .Template {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+}
+
+.ActionFormTemplate > .Header {
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+.ActionFormTemplate > .Buttons {
+    width: inherit;
+    display: flex;
+    justify-items: end;
+    margin: 10px;
+}

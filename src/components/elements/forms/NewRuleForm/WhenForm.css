@@ -1,0 +1,42 @@
+.IfForm .Code > .EvalHeader {
+    font-size: 150%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.IfForm H2.Header {
+    font-size: 120%;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.IfForm H2.SubHeader {
+    font-size: 90%;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.IfForm > .Code {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.IfForm .Code .Elevate > .Buttons {
+    width: 100%;
+    display: flex;
+}
+
+.IfForm .Code > .Elevate {
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(176,176,176,1);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(176,176,176,1);
+    box-shadow: 0px 0px 10px -1px rgba(176,176,176,1);
+    padding: 0 25px 25px 20px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.IfForm .Code .Elevate > .Description {
+    margin: 20px 0 20px 0;
+}

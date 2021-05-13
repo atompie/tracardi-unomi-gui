@@ -1,0 +1,21 @@
+.StatusCodeTag {
+    padding: 4px;
+    margin: 2px 6px 2px 2px;
+    border-radius: 4px;
+    max-width: 100px;
+}
+
+.StatusCode200, .StatusCode204 {
+    background: #43a047;
+    color: white;
+}
+
+.StatusCode500 {
+    background: #d81b60;
+    color: white;
+}
+
+.StatusCode404 {
+    background: #d81b60;
+    color: white;
+}

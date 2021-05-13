@@ -1,0 +1,41 @@
+.ThenForm {
+    height: inherit;
+    overflow-y: auto;
+}
+.ThenForm .Rule {
+    margin-bottom: 30px;
+}
+
+.ThenForm .Rule > .Header {
+    font-size: 150%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.ThenForm .Rule > .Items {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ThenForm .Rule .Items > .NoActions {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.ThenForm .Rule .Items > * {
+    margin: 2px;
+}
+
+
+
+.ThenForm > .ActionSelector {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ThenForm > .SearchInput {
+    display: flex;
+    align-items: center;
+}

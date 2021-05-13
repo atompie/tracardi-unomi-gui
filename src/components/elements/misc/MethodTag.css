@@ -1,0 +1,25 @@
+.MethodTag {
+    padding: 4px;
+    margin: 2px 6px 2px 2px;
+    border-radius: 4px;
+    max-width: 100px;
+}
+.GETTag {
+    background: #1565c0;
+    color: white;
+}
+
+.POSTTag {
+    background: #FF8E53;
+    color: white;
+}
+
+.DELETETag {
+    background: #d81b60;
+    color: white;
+}
+
+.PUTTag {
+    background: #FF8E53;
+    color: black;
+}

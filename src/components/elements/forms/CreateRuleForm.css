@@ -1,0 +1,12 @@
+.CreateRuleForm {
+    margin-top: 10px;
+}
+.CreateRuleForm > DIV.formRow {
+    display: flex;
+}
+
+.CreateRuleForm > DIV.description {
+    margin-bottom: 20px;
+    color: #555;
+}
+

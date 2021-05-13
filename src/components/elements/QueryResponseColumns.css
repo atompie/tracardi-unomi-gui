@@ -1,0 +1,112 @@
+.QueryResponseColumns {
+    width:100%;
+    display: flex;
+    height: inherit;
+    position: relative;
+}
+
+.QueryResponseColumns .QueryResponseLeftColumn {
+    width: 50%;
+    height: 100%;
+    background: whitesmoke;
+    border: solid 1px #ccc;
+}
+
+.QueryResponseColumns .QueryResponseLeftColumn .RequestInfo {
+    padding: 5px;
+    width: 100%;
+    background: whitesmoke;
+    border-bottom: solid 1px #ccc;
+    display: flex;
+    align-items: center;
+    color: #666;
+    height: 42px;
+}
+
+.QueryResponseColumns .QueryResponseLeftColumn .RequestInfo SPAN {
+    margin-right: 10px;
+}
+
+.QueryResponseColumns .QueryResponseLeftColumn .RequestBody {
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 183px);
+    overflow-y: auto;
+}
+
+.QueryResponseColumns .QueryResponseLeftColumn .RequestStatus {
+    padding: 3px;
+    width: 100%;
+    background: whitesmoke;
+    border-top: solid 1px #ccc;
+    color: #666;
+    height: 26px;
+}
+
+.QueryResponseColumns .QueryResponseRightColumn .ResponseInfo {
+    padding: 5px;
+    width: 100%;
+    background: whitesmoke;
+    border-bottom: solid 1px #ccc;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.QueryResponseColumns .QueryResponseRightColumn .ResponseBody {
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 183px);
+    overflow-y: auto;
+}
+
+.QueryResponseColumns .QueryResponseRightColumn .ResponseStatus {
+    padding: 3px;
+    width: 100%;
+    background: whitesmoke;
+    border-top: solid 1px #ccc;
+    color: #666;
+    height: 26px;
+}
+
+.QueryResponseColumns .QueryResponseRightColumn {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    background: whitesmoke;
+    border: solid 1px #ccc;
+}
+.QueryResponseColumns .RunQuery {
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width:50px;
+    height: 50px;
+    top: 150px;
+    left: 50%;
+    display: flex;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background: whitesmoke;
+    color: #666;
+    border: solid 2px #ccc;
+    border-radius: 50%;
+}
+.QueryResponseColumns .DisableQuery {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width:50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+    background: linear-gradient(45deg, #666 30%, #333 90%);
+    color: white;
+    border-radius: 50%;
+}
+
