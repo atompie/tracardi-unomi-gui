@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  tracardi-gui:
+#    build: .
+    image: tracardi-unomi-gui
+    environment:
+      API_URL: http://127.0.0.1:8686
+    ports:
+      - 8787:80

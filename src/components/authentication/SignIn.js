@@ -68,7 +68,7 @@ const SignInForm = ({showAlert}) => {
     const [rememberMe, setRememberMe] = useState(false);
 
     const {state} = useLocation();
-    const {from} = state || {from: {pathname: "/app/home"}};
+    const {from} = state || {from: {pathname: "/home"}};
     const [redirectToReferrer, setRedirectToReferrer] = useState(false);
 
     const handleEmailChange = (evt) => {

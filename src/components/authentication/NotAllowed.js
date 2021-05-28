@@ -6,7 +6,7 @@ export default function NotAllowed() {
     return (
         <Typography variant="body2" color="textPrimary" align="center">
             You do not have rights to this page.
-            <Link color="inherit" href="/app/login">
+            <Link color="inherit" href="/login">
                 Log-in
             </Link>.
         </Typography>

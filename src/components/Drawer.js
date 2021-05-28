@@ -44,7 +44,7 @@ export default function LeftMenu({drawerState, toggleDrawer}) {
             </Toolbar>
             <Divider/>
             <List>
-                <Link to="/app/sources" className="listItem">
+                <Link to="/sources" className="listItem">
                     <ListItem button key="1">
                         <ListItemIcon><FindInPageOutlined
                             style={{color: "black", fontWeight: 300}}/></ListItemIcon>
@@ -53,7 +53,7 @@ export default function LeftMenu({drawerState, toggleDrawer}) {
                         </ListItemText>
                     </ListItem>
                 </Link>
-                <Link to="/app/events" className="listItem">
+                <Link to="/events" className="listItem">
                     <ListItem button key="1">
                         <ListItemIcon><FindInPageOutlined
                             style={{color: "black", fontWeight: 300}}/></ListItemIcon>
@@ -62,7 +62,7 @@ export default function LeftMenu({drawerState, toggleDrawer}) {
                         </ListItemText>
                     </ListItem>
                 </Link>
-                <Link to="/app/rules" className="listItem">
+                <Link to="/rules" className="listItem">
                     <ListItem button key="1">
                         <ListItemIcon><FindInPageOutlined
                             style={{color: "black", fontWeight: 300}}/></ListItemIcon>
@@ -71,7 +71,7 @@ export default function LeftMenu({drawerState, toggleDrawer}) {
                         </ListItemText>
                     </ListItem>
                 </Link>
-                <Link to="/app/segments" className="listItem">
+                <Link to="/segments" className="listItem">
                     <ListItem button key="1">
                         <ListItemIcon><FindInPageOutlined
                             style={{color: "black", fontWeight: 300}}/></ListItemIcon>
@@ -80,7 +80,7 @@ export default function LeftMenu({drawerState, toggleDrawer}) {
                         </ListItemText>
                     </ListItem>
                 </Link>
-                <Link to="/app/profiles" className="listItem">
+                <Link to="/profiles" className="listItem">
                     <ListItem button key="1">
                         <ListItemIcon><FindInPageOutlined
                             style={{color: "black", fontWeight: 300}}/></ListItemIcon>
@@ -89,7 +89,7 @@ export default function LeftMenu({drawerState, toggleDrawer}) {
                         </ListItemText>
                     </ListItem>
                 </Link>
-                <Link to="/app/console" className="listItem">
+                <Link to="/console" className="listItem">
                     <ListItem button key="1">
                         <ListItemIcon><FindInPageOutlined
                             style={{color: "black", fontWeight: 300}}/></ListItemIcon>
@@ -98,7 +98,7 @@ export default function LeftMenu({drawerState, toggleDrawer}) {
                         </ListItemText>
                     </ListItem>
                 </Link>
-                <Link to="/app/manual" className="listItem">
+                <Link to="/manual" className="listItem">
                     <ListItem button key="2">
                         <ListItemIcon><TouchAppOutlined style={{color: "black"}}/></ListItemIcon>
                         <ListItemText>

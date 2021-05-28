@@ -4,5 +4,5 @@ import {logout} from "./login";
 
 export default function Logout() {
     logout();
-    return <Redirect to="/app/login"/>
+    return <Redirect to="/login"/>
 }

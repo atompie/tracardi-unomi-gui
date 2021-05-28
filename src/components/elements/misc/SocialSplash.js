@@ -7,7 +7,7 @@ export default function SocialSplash({onClick}) {
 
     return <div className="SocialSplashRoot">
         <div className="SocialSplash">
-            <div className="Image"><img src={process.env.PUBLIC_URL + "/splash.svg"} alt="Splash"/></div>
+            <div className="Image"><img src={process.env.PUBLIC_URL + "splash.svg"} alt="Splash"/></div>
             <div className="Content">
                 <div className="Title">Welcome to <span className="Brand">Tracardi</span></div>
                 <div className="Tag">Graphic User Interface for Apache Unomi</div>

@@ -1,6 +1,6 @@
 {
-  "short_name": "UQL client",
-  "name": "UQL web client",
+  "short_name": "Tracardi client",
+  "name": "Tracardi web client",
   "icons": [
     {
       "src": "favicon.ico",

@@ -39,13 +39,13 @@ const App = ({alert}) => {
             return (
                 <Router>
                     <Switch>
-                        <Route exact path="/app/login">
+                        <Route exact path="/login">
                             <SignIn/>
                         </Route>
-                        <Route exact path="/app/logout">
+                        <Route exact path="/logout">
                             <Logout/>
                         </Route>
-                        <PrivateRoute path="/app" roles={["unomi"]}>
+                        <PrivateRoute path="/" roles={["unomi"]}>
                             <AppBox/>
                         </PrivateRoute>
                     </Switch>

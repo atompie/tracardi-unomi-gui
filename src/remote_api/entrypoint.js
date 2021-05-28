@@ -13,7 +13,7 @@ export const api = (headers) => {
     }
 
     return axios.create({
-        baseURL: process.env.REACT_APP_API_URL,
+        baseURL: window._env_.REACT_APP_API_URL,
         headers
     })
 }
@@ -21,7 +21,7 @@ export const api = (headers) => {
 export const remote = (config) => {
     config = {
         ...config,
-        baseURL: process.env.REACT_APP_API_URL
+        baseURL: window._env_.REACT_APP_API_URL
     }
     config.headers = {
         ...config.headers,

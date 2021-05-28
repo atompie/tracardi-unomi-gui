@@ -27,7 +27,7 @@ export default function PrivateRoute({children, location, roles, ...rest}) {
                     ? isAllowed() ? children : <NotAllowed/>
                     : <Redirect to={
                         {
-                            pathname: '/app/login',
+                            pathname: '/login',
                             state: {from: location}
                         }
                     }/>

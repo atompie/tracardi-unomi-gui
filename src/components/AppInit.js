@@ -14,13 +14,13 @@ export default function AppInit() {
     return (
         <Router history={history}>
             <Switch>
-                <Route exact path="/app/login">
+                <Route exact path="/login">
                     <SignIn/>
                 </Route>
-                <Route exact path="/app/logout">
+                <Route exact path="/logout">
                     <Logout/>
                 </Route>
-                <PrivateRoute path="/app">
+                <PrivateRoute path="/">
                     <App/>
                 </PrivateRoute>
             </Switch>
