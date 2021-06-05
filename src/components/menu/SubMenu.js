@@ -11,15 +11,15 @@ export default function SubMenu({title, children}) {
         {children}
         <div className="SubMenuFiller">
             <div className="Branding">
-                <div className="BrandName">TRACARDI <span> ver. 0.3.0</span></div>
+                <div className="BrandName">TRACARDI <span> ver. 0.4.0</span></div>
                 <div className="TagName">Customer Data Platform</div>
             </div>
 
             <div className="SupportUs">
                 <div className="Title">Subscribe to support us:</div>
-                <SocialButton icon={<FaFacebookSquare size={20}/>} link="https://www.facebook.com/TRACARDI/" className="Social"/>
-                <SocialButton icon={<GrTwitter size={20}/>} link="https://twitter.com/tracardi" className="Social"/>
-                <SocialButton icon={<IoLogoYoutube size={20}/>} link="https://www.youtube.com/channel/UC0atjYqW43MdqNiSJBvN__Q" className="Social"/>
+                <SocialButton icon={<FaFacebookSquare size={20}/>} link="https://bit.ly/3uPwP5a" className="Social"/>
+                <SocialButton icon={<GrTwitter size={20}/>} link="https://bit.ly/3uVJwLJ" className="Social"/>
+                <SocialButton icon={<IoLogoYoutube size={20}/>} link="https://bit.ly/3pbdbPR" className="Social"/>
             </div>
         </div>
     </div>

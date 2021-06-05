@@ -13,8 +13,8 @@ export default function SocialSplash({onClick}) {
                 <div className="Tag">Graphic User Interface for Apache Unomi</div>
                 <div className="Message">
                     <p>Tracardi is still very early, but we would love to see what you can do with it at this stage!</p>
-                    <p>If you would like to support us please follow us on <SocialButton icon={<Facebook/>} title="Facebook" link="https://www.facebook.com/TRACARDI/"/> or <SocialButton icon={<Twitter/>} title="Twitter" link="https://twitter.com/tracardi"/>
-                        tag us and leave your comments. Subscribe to our <SocialButton icon={<YouTube/>} title="Youtube" link="https://www.youtube.com/channel/UC0atjYqW43MdqNiSJBvN__Q"/> channel
+                    <p>If you would like to support us please follow us on <SocialButton icon={<Facebook/>} title="Facebook" link="https://bit.ly/3uPwP5a"/> or <SocialButton icon={<Twitter/>} title="Twitter" link="https://bit.ly/3uVJwLJ"/>
+                        tag us and leave your comments. Subscribe to our <SocialButton icon={<YouTube/>} title="Youtube" link="https://bit.ly/3pbdbPR"/> channel
                         to see development process and new upcoming features.</p>
                 </div>
                 <div className="Continue">
