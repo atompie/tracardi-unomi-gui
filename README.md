@@ -1,6 +1,6 @@
 # Tracardi Unomi React GUI
 
-This repo is not maintaned any more as we moved to custom backend that could develivem more functionalyty. If you are interesed in open-source CPD with GUI and no-code event processing visit [http://github.com/Tracardi/tracardi](http://github.com/Tracardi/tracardi). Tracardi is a continuation of this project. 
+This repo is not maintaned. If you are interesed in open-source CPD with GUI and no-code event processing visit [http://github.com/Tracardi/tracardi](http://github.com/Tracardi/tracardi). Tracardi is a continuation of this project. 
 
 
 ![Screenshot 1](https://scontent.fpoz4-1.fna.fbcdn.net/v/t1.6435-9/176281298_116889430506445_8902050899484618905_n.png?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=qehNGVOamjoAX8JKEXJ&_nc_ht=scontent.fpoz4-1.fna&oh=9419256671a7058fac91911c447e73a5&oe=60ADAEC3)
